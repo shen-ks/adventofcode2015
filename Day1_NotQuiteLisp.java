@@ -4,7 +4,13 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * <p>Class description.</p>
+ *
+ * <p><b>TODO:</b> Refactoring tasks.</p>
+ *
+ * @author shen.k.s
+ */
 public class Day1_NotQuiteLisp {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		ArrayList<Character> parentheses = new ArrayList<>();
