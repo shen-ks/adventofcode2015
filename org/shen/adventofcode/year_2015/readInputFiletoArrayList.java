@@ -9,18 +9,18 @@ public class readInputFiletoArrayList {
 
 
     public  ArrayList<String> readLinesFromFile (String filename){
-        ArrayList<String> lines = new ArrayList<>();
+        ArrayList<String> ArrayListoflines = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                lines.add(line);
+                ArrayListoflines.add(line);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return lines;
+        return ArrayListoflines;
     }
 
 

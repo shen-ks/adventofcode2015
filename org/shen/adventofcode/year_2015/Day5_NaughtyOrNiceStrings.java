@@ -1,3 +1,5 @@
+package org.shen.adventofcode.year_2015;
+
 import org.shen.adventofcode.year_2015.readInputFiletoArrayList;
 
 import java.nio.file.Path;

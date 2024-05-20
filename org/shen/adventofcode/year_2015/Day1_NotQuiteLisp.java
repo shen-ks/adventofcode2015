@@ -1,3 +1,5 @@
+package org.shen.adventofcode.year_2015;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

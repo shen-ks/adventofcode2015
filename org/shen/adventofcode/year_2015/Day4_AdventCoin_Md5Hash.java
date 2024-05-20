@@ -1,3 +1,5 @@
+package org.shen.adventofcode.year_2015;
+
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
