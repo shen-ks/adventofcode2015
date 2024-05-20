@@ -20,6 +20,12 @@ public class Day6_FireHazard {
         int litCount = grid.countLitLightspuzzle1();
         System.out.println("Number of lit lights: " + litCount);
 
+        Day6_LightGridBrightness gridBrightness = new Day6_LightGridBrightness();
+        for (String instruction : receivedStrings) {
+            gridBrightness.processInstruction(instruction);
+        }
+        int totalBrightness = gridBrightness.countTotalBrightness();
+        System.out.println("totalbrightness: " + totalBrightness);
     }
 
 }
